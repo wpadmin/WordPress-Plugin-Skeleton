@@ -1,6 +1,10 @@
-# WordPress-Plugin-Skeleton
-Заготовка для плагина WP
+# WordPress Plugin Skeleton
 
+Заготовка для создания плагина WordPress с правильной структурой файлов и папок.
+
+## Структура проекта
+
+```
 wpadmin-plugin/
 ├── admin/                   # Файлы админ-панели
 │   ├── css/                # Стили админки
@@ -17,3 +21,4 @@ wpadmin-plugin/
 │   └── partials/         # Шаблоны публичной части
 ├── index.php             # Пустой файл для безопасности
 └── wpadmin-plugin.php    # Основной файл плагина
+```
